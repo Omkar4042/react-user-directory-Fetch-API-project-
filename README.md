@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+#########################################
+React User Directory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React application that fetches user data from a public REST API and displays it in an interactive interface. The project demonstrates API integration, state management, and dynamic UI rendering using React Hooks. Users can search, filter, sort, and paginate through a list of users in a clean and responsive layout.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+#####################################
+🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Fetch user data from a REST API
+Search users by name
+Debounced search for better performance
+Filter users by company
+Sort users alphabetically (A–Z / Z–A)
+Pagination for navigating large datasets
+Reload users from the API
+Responsive card-based UI
+Component-based architecture
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+#########################################
+🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React
+JavaScript (ES6+)
+Fetch API
+React Hooks (useState, useEffect)
+CSS / Inline Styling
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###########################################
+📡 API Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+User data is fetched from:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://jsonplaceholder.typicode.com/users
 
-### `npm run eject`
+This API provides mock user data commonly used for testing frontend applications.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#############################################
+📂 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+src
+├ components
+│ └ UserCard.jsx
+│
+├ App.jsx
+└ index.css
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+#############################################
+⚙️ Installation & Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+git clone https://github.com/yourusername/react-user-directory.git
 
-### Code Splitting
+Navigate to the project folder
+cd react-user-directory
+Install dependencies
+npm install
+Run the development server
+npm run dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##############################################
+📖 How It Works
 
-### Making a Progressive Web App
+When the application loads, it fetches user data from the API.
+The fetched data is stored in React state.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Users can:
+Search users by name
+Filter users by company
+Sort users alphabetically
+Pagination allows navigating through users in smaller groups.
+React components dynamically update the UI whenever the state changes.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+##########################################
+🎯 Learning Objectives
 
-### Deployment
+This project was built to practice and demonstrate:
+Fetching data from API
+Managing component state
+Handling asynchronous operations
+Implementing search and filtering logic
+Building reusable React components
+Creating interactive frontend interfaces
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+#######################################
+📌 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add loading spinner
+Add error handling UI
+Convert pagination into a reusable component
+Add infinite scrolling
+Improve UI styling with Tailwind or Material UI
+
+
+#######################################
+👨‍💻 Author
+
+Developed by Omkar Dalvi
