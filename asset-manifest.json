@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-user-directory-Fetch-API-project-/static/css/main.e6c13ad2.css",
+    "main.js": "/react-user-directory-Fetch-API-project-/static/js/main.af630efe.js",
+    "static/js/453.0fd38d22.chunk.js": "/react-user-directory-Fetch-API-project-/static/js/453.0fd38d22.chunk.js",
+    "index.html": "/react-user-directory-Fetch-API-project-/index.html",
+    "main.e6c13ad2.css.map": "/react-user-directory-Fetch-API-project-/static/css/main.e6c13ad2.css.map",
+    "main.af630efe.js.map": "/react-user-directory-Fetch-API-project-/static/js/main.af630efe.js.map",
+    "453.0fd38d22.chunk.js.map": "/react-user-directory-Fetch-API-project-/static/js/453.0fd38d22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.af630efe.js"
+  ]
+}
